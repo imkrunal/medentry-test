@@ -1,5 +1,8 @@
 # MedEntry
 
+![alt Desktop](screenshots/desktop.png "Desktop")
+![alt Mobile](screenshots/mobile.png "Mobile")
+
 ## Requirements
 
 Node Sass requires specific version of node. This project is compatible using `node 14.0` if you're using any other version of node you will need to change `node-sass` version (Ref: [Node-Sass Documentation](https://www.npmjs.com/package/node-sass))
