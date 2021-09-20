@@ -1,0 +1,31 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.progress-gray {
+  @apply absolute bg-gray-100 top-0 left-0 h-full rounded-md z-10;
+}
+
+.progress-danger {
+  @apply absolute top-0 left-0 h-full rounded-md z-20 text-white text-xl text-right pr-4 bg-yellow-500;
+}
+
+.progress-error {
+  @apply absolute top-0 left-0 h-full rounded-md z-20 text-white text-xl text-right pr-4 bg-red-500;
+}
+
+.progress-success {
+  @apply absolute top-0 left-0 h-full rounded-md z-20 text-white text-xl text-right pr-4 bg-green-500;
+}
+
+.progress-text {
+  @apply absolute z-30 -top-8 left-0 text-right text-gray-500;
+}
+
+.progress-attempts {
+  @apply text-gray-400 mt-1;
+}
+
+.result-wrapper {
+  @apply bg-white h-14 w-14 rounded-md flex justify-center items-center;
+}
